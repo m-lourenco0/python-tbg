@@ -1,5 +1,6 @@
 {
   "start": {
+    "name": "start room",
     "description": "You are in a dimly lit room. There's a door to the north.",
     "doors": {
       "north": {
@@ -11,10 +12,12 @@
     "directions": ["north"]
   },
   "hallway": {
+    "name": "hallway",
     "description": "You are in a long hallway. There are doors to the east and west.",
     "doors": {
       "east": {
         "status": "locked",
+        "required_key": "key",
         "leads_to": "treasure_room"
       },
       "west": {
@@ -26,6 +29,7 @@
     "directions": ["east", "west"]
   },
   "treasure_room": {
+    "name": "treasure room",
     "description": "You've found the treasure room! Congrats!",
     "doors": {},
     "objects": ["treasure"],
