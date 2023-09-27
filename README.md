@@ -1,2 +1,2 @@
 # python-tbg
-Terminal text based gamed made on python
+Terminal text based game made on python
